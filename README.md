@@ -1,14 +1,22 @@
 # customer-behavior-analysis
 SQL project on analyzing customer order patterns and behavior.
 
-# SQL Practice - Amresh
+# SQL Practice Portfolio - Amresh
 
-This repository contains my SQL practice queries.
+This repository contains my SQL practice queries focused on real interview problems.
 
-## Topics Covered:
-- Window Functions
-- LAG & LEAD
-- Consecutive Orders Problem
+## 📌 Problems Solved:
+1. Find consecutive orders using LAG and DATEDIFF
 
-## Goal:
-To build strong SQL skills for interviews and real-world data analysis.
+## 🧠 Skills Used:
+- Window Functions (LAG)
+- Date Functions (DATEDIFF)
+- Data Analysis Logic
+
+## 🎯 Goal:
+To build strong SQL and data analysis skills for real-world projects and freelancing.
+
+## 📈 Progress:
+- [x] Consecutive Orders Problem
+- [ ] Streak Analysis (3+ days)
+- [ ] Advanced Window Functions
