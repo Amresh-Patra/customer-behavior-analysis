@@ -1,3 +1,5 @@
+-- Find customers with consecutive orders (1-day gap)
+
 WITH temp AS (
     SELECT 
         customer_id,
@@ -12,3 +14,4 @@ WITH temp AS (
 SELECT DISTINCT customer_id
 FROM temp
 WHERE DATEDIFF(order_date, prev_date) = 1;
+
