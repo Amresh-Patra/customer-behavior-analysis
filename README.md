@@ -21,6 +21,7 @@ and behavior using real business problems.
 | 3 | Customer Ranking by Revenue | DENSE_RANK, GROUP BY, Subquery |
 | 4 | Top Customer Per City | ROW_NUMBER, PARTITION BY, GROUP BY |
 | 5 | Customer Segmentation | CASE WHEN, GROUP BY, SUM |
+| 6 | Platinum Top Spender Per City | CTEs, ROW_NUMBER, PARTITION BY |
 ---
 
 ## 🧠 Skills Covered
@@ -53,9 +54,10 @@ segmentation, and churn analysis.
 - [x] Customer Ranking — DENSE_RANK
 - [x] Top Customer Per City — ROW_NUMBER, PARTITION BY
 - [x] Customer Segmentation — CASE WHEN
+- [x] CTE Based Analysis — Multiple CTEs
 
 ### 🔶 In Progress
-- [ ] CTEs
+
 
 ### 🔒 Coming Soon
 - [ ] Streak Analysis
