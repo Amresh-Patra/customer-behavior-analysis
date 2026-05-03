@@ -18,7 +18,8 @@ and behavior using real business problems.
 |---|---------|---------------|
 | 1 | Consecutive Orders | LAG, DATEDIFF |
 | 2 | Top 3 Customers by Revenue | GROUP BY, SUM, ORDER BY, LIMIT |
-
+| 3 | Customer Ranking by Revenue | DENSE_RANK, GROUP BY, Subquery |
+| 4 | Top Customer Per City | ROW_NUMBER, PARTITION BY, GROUP BY |
 ---
 
 ## 🧠 Skills Covered
@@ -48,13 +49,14 @@ segmentation, and churn analysis.
 ### ✅ Completed
 - [x] Consecutive Orders — LAG + DATEDIFF
 - [x] Top 3 Customers by Revenue — GROUP BY, SUM, LIMIT
+- [x] Customer Ranking — DENSE_RANK
+- [ ] - [x] Top Customer Per City — ROW_NUMBER, PARTITION BY
 
 ### 🔶 In Progress
 - [ ] CASE WHEN — Customer Segmentation
 - [ ] CTEs
 
 ### 🔒 Coming Soon
-- [ ] Customer Ranking — DENSE_RANK
 - [ ] Streak Analysis
 - [ ] Monthly Revenue Trends
 - [ ] Churn / Inactive Customer Analysis
