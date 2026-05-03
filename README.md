@@ -6,9 +6,9 @@ and behavior using real business problems.
 ---
 
 ## 👤 About
-**Name:** Amresh  
-**Goal:** Job-ready SQL and Data Analyst skills  
-**Focus:** Real business problems — not just syntax  
+**Name:** Amresh
+**Goal:** Job-ready SQL and Data Analyst skills
+**Focus:** Real business problems — not just syntax
 
 ---
 
@@ -17,11 +17,7 @@ and behavior using real business problems.
 | # | Problem | Concepts Used |
 |---|---------|---------------|
 | 1 | Consecutive Orders | LAG, DATEDIFF |
-| 2 | Top Customers by Revenue | GROUP BY, RANK |
-| 3 | Streak Analysis | ROW_NUMBER, grouping logic |
-| 4 | Department Ranking | DENSE_RANK, PARTITION BY |
-| 5 | Customer Segmentation | CASE WHEN |
-| 6 | CTE-based Analysis | WITH clause, CTEs |
+| 2 | Top 3 Customers by Revenue | GROUP BY, SUM, ORDER BY, LIMIT |
 
 ---
 
@@ -51,14 +47,15 @@ segmentation, and churn analysis.
 
 ### ✅ Completed
 - [x] Consecutive Orders — LAG + DATEDIFF
-- [x] Top Customers by Revenue
-- [x] Streak Analysis
+- [x] Top 3 Customers by Revenue — GROUP BY, SUM, LIMIT
 
 ### 🔶 In Progress
 - [ ] CASE WHEN — Customer Segmentation
 - [ ] CTEs
 
 ### 🔒 Coming Soon
+- [ ] Customer Ranking — DENSE_RANK
+- [ ] Streak Analysis
 - [ ] Monthly Revenue Trends
 - [ ] Churn / Inactive Customer Analysis
 - [ ] Customer Retention Patterns
