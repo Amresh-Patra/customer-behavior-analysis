@@ -20,6 +20,7 @@ and behavior using real business problems.
 | 2 | Top 3 Customers by Revenue | GROUP BY, SUM, ORDER BY, LIMIT |
 | 3 | Customer Ranking by Revenue | DENSE_RANK, GROUP BY, Subquery |
 | 4 | Top Customer Per City | ROW_NUMBER, PARTITION BY, GROUP BY |
+| 5 | Customer Segmentation | CASE WHEN, GROUP BY, SUM |
 ---
 
 ## 🧠 Skills Covered
@@ -50,10 +51,10 @@ segmentation, and churn analysis.
 - [x] Consecutive Orders — LAG + DATEDIFF
 - [x] Top 3 Customers by Revenue — GROUP BY, SUM, LIMIT
 - [x] Customer Ranking — DENSE_RANK
-- [ ] - [x] Top Customer Per City — ROW_NUMBER, PARTITION BY
+- [x] Top Customer Per City — ROW_NUMBER, PARTITION BY
+- [x] Customer Segmentation — CASE WHEN
 
 ### 🔶 In Progress
-- [ ] CASE WHEN — Customer Segmentation
 - [ ] CTEs
 
 ### 🔒 Coming Soon
