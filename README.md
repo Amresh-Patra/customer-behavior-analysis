@@ -22,6 +22,8 @@ and behavior using real business problems.
 | 4 | Top Customer Per City | ROW_NUMBER, PARTITION BY, GROUP BY |
 | 5 | Customer Segmentation | CASE WHEN, GROUP BY, SUM |
 | 6 | Platinum Top Spender Per City | CTEs, ROW_NUMBER, PARTITION BY |
+| 7 | Monthly Revenue Trends | DATE_FORMAT, MONTH, YEAR, CTEs, AVG |
+
 ---
 
 ## 🧠 Skills Covered
@@ -33,8 +35,10 @@ and behavior using real business problems.
 - GROUP BY, HAVING, Aggregations
 - Streak and Consecutive Logic
 - Top N / Bottom N patterns
-- CASE WHEN conditional logic
-- CTEs — Common Table Expressions
+- CASE WHEN — conditional segmentation
+- CTEs — single and multi-CTE patterns
+- Date Functions — MONTH, YEAR, DATE_FORMAT
+- Cross joins for single value comparisons
 
 ---
 
@@ -51,16 +55,17 @@ segmentation, and churn analysis.
 ### ✅ Completed
 - [x] Consecutive Orders — LAG + DATEDIFF
 - [x] Top 3 Customers by Revenue — GROUP BY, SUM, LIMIT
-- [x] Customer Ranking — DENSE_RANK
+- [x] Customer Ranking by Revenue — DENSE_RANK
 - [x] Top Customer Per City — ROW_NUMBER, PARTITION BY
 - [x] Customer Segmentation — CASE WHEN
-- [x] CTE Based Analysis — Multiple CTEs
+- [x] Platinum Top Spender Per City — Multi-CTE
+- [x] Monthly Revenue Trends — Date Functions, CTEs
 
 ### 🔶 In Progress
-
+- [ ] COALESCE / NULLIF — Handling NULLs
+- [ ] Self Joins
 
 ### 🔒 Coming Soon
-- [ ] Streak Analysis
-- [ ] Monthly Revenue Trends
 - [ ] Churn / Inactive Customer Analysis
 - [ ] Customer Retention Patterns
+- [ ] Full Project — layoffs.csv Analysis
